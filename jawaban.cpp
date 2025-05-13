@@ -39,3 +39,9 @@ class BangunDatar{
         cout << "Keliling : " << bd.hitungKeliling() << endl;
     };
     
+    int main(){
+        PersegiPanjang pP;
+        BangunDatar bD;
+        pP.inputData(bD);
+        pP.outputData(bD);
+    }
